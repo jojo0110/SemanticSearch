@@ -1,1 +1,19 @@
+This folder contains 2 scripts which convert the AdventureWorks2022 DB tables and join relations into nodes and edges.
+there is a script to run the multi-hop queries for testing
+
+Required:
+AdventureWorks2024 Database on your SQL Server 
+
+Steps:
+Run the following scripts by order
+NodeTablesWithPopulation.sql
+This script create node tables and populate data from AdventureWorks2022
+
+EdgeTablesWithPopulation
+This script create edge tables and populate data from AdventureWorks2022
+
+Your SMSS should have nodes and table (see GraphTable.png)
+
+Run the Multi-Hop-Query-Examples to see the results
+
 
