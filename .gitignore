@@ -1,0 +1,29 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# ONNX model folder
+#onnx-model/
+
+# VS Code
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS-specific
+.DS_Store
+Thumbs.db
