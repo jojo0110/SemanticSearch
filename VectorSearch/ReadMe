@@ -1,0 +1,10 @@
+4 steps happened when embedding model convert text value to embedding vector (float[]) 
+
+########
+Step 1: (Tokenizeation) Prepare inputs. Convert data into Ids, Masks and Token type ids
+
+Step 2: (Transformer) Model transforms tokens → model use those inputs to generate embedding meaning vector
+
+Step 3: You store the meaning vector into vector DB
+
+Step 4: Search compares meaning vectors
