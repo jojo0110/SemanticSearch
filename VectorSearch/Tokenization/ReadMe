@@ -1,0 +1,14 @@
+This is the step 1 (data Tokenization), which prepare data for model to transform (step 2), both steps require same embedding model.
+
+
+
+How to get model folder for your app to use
+
+In Python env, 
+pip install "optimum[onnxruntime]" 
+pip install onnx 
+pip install onnxruntime
+
+optimum-cli export onnx --model sentence-transformers/all-MiniLM-L6-v2 --optimize O2 ./onnx-model
+
+make sure this onnx-model folder is reachable from your app.
